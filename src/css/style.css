@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 70px;
+    padding: 20;
+    margin-bottom: 50px;
+    
+}
+
+form {
+    display: flex;
+    gap: 25px;
+    
+}
+
+li {
+    height: 25px;
+    width: 25px;
+    
+}
+
+img {
+    opacity: 0.4;
+    height: 70px;
+    width: 70px;
+    border: 1px solid black;
+}
+
+.active-card {
+    opacity: 1;
+} 
+
+.input {
+    margin-top: 20px;
+    margin-left: 40px;
+    height: 40px;
+    box-sizing: border-box;
+}
+
+.validate-btn {
+    margin-top: 20px;
+    background-color: rgb(1, 11, 4);
+    color: white;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 30px;
+    font-size: 14px;
+}
+
+.validate-btn:hover {
+    cursor: pointer;
+    background-color: rgb(75, 194, 103);
+}
+
+.valid-marker {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.invalid-marker {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.inactive-marker {
+    display: none;
+}
+
